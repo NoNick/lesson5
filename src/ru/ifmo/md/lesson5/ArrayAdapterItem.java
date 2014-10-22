@@ -12,13 +12,13 @@ import android.widget.TwoLineListItem;
 
 import java.util.ArrayList;
 
-public class ArrayAdapterItem extends ArrayAdapter<RSSPager.FeedMenu.Entry> {
+public class ArrayAdapterItem extends ArrayAdapter<Entry> {
 
     Context mContext;
     int layoutResourceId;
-    ArrayList<RSSPager.FeedMenu.Entry> data = null;
+    ArrayList<Entry> data = null;
 
-    public ArrayAdapterItem(Context mContext, int layoutResourceId, ArrayList<RSSPager.FeedMenu.Entry> data) {
+    public ArrayAdapterItem(Context mContext, int layoutResourceId, ArrayList<Entry> data) {
 
         super(mContext, layoutResourceId, data);
 
